@@ -1,6 +1,6 @@
 // with function 
 
-function EvenOdd() {
+function EvenOdd(num) {
     if (num % 2 === 0) {
         console.log("Even Number")
     }
@@ -9,7 +9,8 @@ function EvenOdd() {
         console.log("Odd Number")
     }
 }
-
+console.log(EvenOdd(50))
+console.log(EvenOdd(55))
 // with arrow function
 
 const EvenOdd2 = (num) => {
@@ -35,4 +36,27 @@ const evenOddSwitch = (num) => {
 console.log(evenOddSwitch(10));  
 console.log(evenOddSwitch(7));   
 console.log(evenOddSwitch(-5));  
+
+
+// with prompt 
+// Get input from user
+let userInput = prompt("Enter a number:");
+
+// Convert input to a number
+let number = parseInt(userInput);
+
+
+function EvenOdd(num) {
+    if (num % 2 === 0) {
+        console.log("Even Number");
+    } else {
+        console.log("Odd Number");
+    }
+}
+
+
+
+
+EvenOdd(number);
+
 
