@@ -12,10 +12,10 @@ function EvenOdd() {
 
 // with arrow function
 
-const EvenOdd = (num) => {
+const EvenOdd2 = (num) => {
     return num % 2 === 0 ? "EvenNumber" : "OddNumber";
 };
-const eoresult = EvenOdd(7);
+const eoresult = EvenOdd2(7);
 console.log(eoresult); 
 
 // with switch case 
