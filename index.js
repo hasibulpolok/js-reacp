@@ -38,15 +38,11 @@ console.log(evenOddSwitch(7));
 console.log(evenOddSwitch(-5));  
 
 
-// with prompt 
-
-let userInput = prompt("Enter a number:");
-
-// Convert input to a number
-let number = parseInt(userInput);
 
 
-function EvenOdd(num) {
+
+
+function EvenOdd(num = 38) {
     if (num % 2 === 0) {
         console.log("Even Number");
     } else {
@@ -56,8 +52,6 @@ function EvenOdd(num) {
 
 
 
-
-EvenOdd(number);
 
 let a = 100 ;
 
@@ -73,5 +67,18 @@ console.log("B")
 else{
     console.log("F")
 }
+
+// ternary operator multiline
+let mark = 75; 
+
+let grade = (a >= 80) ? "A+" :
+            (a >= 70) ? "A" :
+            (a >= 60) ? "B" : "F";
+
+console.log(grade);
+
+// ternary single line 
+let grade2 = (a>=80) ? "A+" : (a>=70) ? "A": (a>=60) ? "B" :"F" ;
+console.log(grade2);
 
 
