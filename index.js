@@ -39,7 +39,7 @@ console.log(evenOddSwitch(-5));
 
 
 // with prompt 
-// Get input from user
+
 let userInput = prompt("Enter a number:");
 
 // Convert input to a number
