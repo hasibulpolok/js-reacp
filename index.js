@@ -59,4 +59,19 @@ function EvenOdd(num) {
 
 EvenOdd(number);
 
+let a = 100 ;
+
+if (a>=80){
+    console.log("A+");
+}
+else if(a>=70){
+console.log("A")
+}
+else if(a>=60){
+console.log("B")
+}
+else{
+    console.log("F")
+}
+
 
